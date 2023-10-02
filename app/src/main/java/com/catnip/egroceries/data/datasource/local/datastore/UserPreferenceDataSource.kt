@@ -1,6 +1,7 @@
 package com.catnip.egroceries.data.datasource.local.datastore
 
 import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
 import com.catnip.egroceries.utils.PreferenceDataStoreHelper
 import kotlinx.coroutines.flow.Flow
 
@@ -33,5 +34,4 @@ class UserPreferenceDataSourceImpl(
     companion object{
         val PREF_USER_DARK_MODE = booleanPreferencesKey("PREF_USER_DARK_MODE")
     }
-
 }

@@ -7,7 +7,7 @@
     android:paddingTop="16dp"
     android:paddingHorizontal="16dp"
     android:paddingBottom="48dp"
-    tools:context=".presentation.profile.ProfileFragment">
+    tools:context=".presentation.settings.SettingsDialogFragment">
 
     <TextView
         android:id="@+id/tv_title_dialog"
@@ -28,5 +28,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_title_dialog" />
+
+    <Spinner
+        android:id="@+id/spinner_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/sw_dark_mode"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,12 +8,14 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.catnip.egroceries.data.datasource.dummy.CategoryDataSource
+import com.catnip.egroceries.data.datasource.dummy.LanguageDataSource
 import com.catnip.egroceries.data.datasource.dummy.CategoryDataSourceImpl
 import com.catnip.egroceries.data.datasource.dummy.ProductDataSource
 import com.catnip.egroceries.data.datasource.dummy.ProductDataSourceImpl
 import com.catnip.egroceries.data.repository.ProductRepository
 import com.catnip.egroceries.data.repository.ProductRepositoryImpl
 import com.catnip.egroceries.databinding.FragmentHomeBinding
+import com.catnip.egroceries.model.Category
 import com.catnip.egroceries.model.Product
 import com.catnip.egroceries.presentation.detailproduct.DetailProductActivity
 import com.catnip.egroceries.presentation.home.adapter.HomeAdapter
